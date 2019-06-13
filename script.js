@@ -1,15 +1,20 @@
-function toggloMode() {
-  const html = document.documentElement
-  html.classList.toggle("light")
-  /* if (html.classList.contains('light')){
-    html.classList.remove('light')
-  }else{
-    html.classList.add('light')
-  } */
-  const img = document.querySelector("#profile img")
-  if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/Avatar.png")
+const body = document.querySelector("body")
+const container = document.querySelector("#container")
+const switchBtn = document.querySelector("#switch button")
+const socialLinks = document.querySelector("#social-links")
+
+function toggleMode() {
+  body.classList.toggle("light")
+  container.classList.toggle("light")
+  socialLinks.classList.toggle("light")
+
+  if (body.classList.contains("light")) {
+    switchBtn.style.backgroundImage = "var(--switch-bg-url)"
+    switchBtn.setAttribute("aria-label", "Trocar para modo claro")
   } else {
-    img.setAttribute("src", "./assets/Avatar2.png")
+    switchBtn.style.backgroundImage = "url(./assets/sun.svg)"
+    switchBtn.setAttribute("aria-label", "Trocar para modo escuro")
   }
 }
+
+switchBtn.addEventListener("click", toggleMode)

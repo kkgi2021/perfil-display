@@ -1,69 +1,66 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="light">
+<html lang="pt-br" class="dark">
 
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
   <meta charset="UTF-8" />
+  <meta name="description" content="DevLinks - Conheça o portfólio de Claiton Gimenis, desenvolvedor web e mobile." />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <title>DevLinks</title>
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
 </head>
 
 <body>
   <div id="container">
     <div id="profile">
-      <img src="./assets/Avatar.png" alt="foto de claiton sorrindo camisa amarela e fndo branco" />
-      <p>Claiton gimenis</p>
+      <img src="./assets/Avatar.png"
+        alt="Foto de Claiton Gimenis sorrindo, usando uma camisa amarela e com fundo branco." />
+      <p>Claiton Gimenis</p>
     </div>
-    <div id="switch" onclick="toggloMode()" >
+    <div id="switch" onclick="toggleMode()">
       <button></button>
       <span> </span>
     </div>
-
     <ul>
-      <!--
       <li>
-        <a href="#">Inscrever-se no NLW</a>
+        <a href="#">Início</a>
       </li>
       <li>
-        <a href="#">Baixar meu e-book</a>
+        <a href="./sobre.html">Sobre mim</a>
       </li>
       <li>
-        <a href="#">Ver meu portifolio</a>
-      </li>
-      -->
-      <li>
-        <a href="#" target="_blank">Meu portfolio</a>
+        <a href="./habilidades.html">Habilidades</a>
       </li>
       <li>
-        <a href="#">Sobre mim</a>
+        <a href="./portfolio.html" target="_blank">Meu portfólio</a>
       </li>
     </ul>
     <div id="social-links">
       <a href="https://github.com/kkgi2021" target="_blank">
-        <ion-icon name="logo-github"></ion-icon>
+        <ion-icon name="logo-github" aria-label="Github"></ion-icon>
       </a>
       <a href="#" target="_blank">
-        <ion-icon name="logo-youtube"></ion-icon>
+        <ion-icon name="logo-youtube" aria-label="Youtube"></ion-icon>
       </a>
       <a href="#" target="_blank">
-        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-instagram" aria-label="Instagram"></ion-icon>
       </a>
       <a href="https://www.linkedin.com/in/claiton-gimenis-644b08148/" target="_blank">
-        <ion-icon name="logo-linkedin"></ion-icon>
+        <ion-icon name="logo-linkedin" aria-label="Linkedin"></ion-icon>
       </a>
     </div>
     <footer>
-      Feito com <ion-icon name="heart"></ion-icon> pela
-      <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>
+      Feito com <ion-icon name="heart"></ion-icon> por
+      <a href="#" target="_blank" rel="noopener">Claiton Gimenis</a>
     </footer>
   </div>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script src="./script.js" ></script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
