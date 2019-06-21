@@ -1,57 +1,41 @@
-<h1 align="center"> DevLinks </h1>
+# DevLinks
 
-<p align="center">
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-<a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
-</p>
+![Imagem de perfil do Claiton Gimenis](./assets/Avatar.png)
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
+Este é o projeto do site DevLinks, um portfólio do desenvolvedor web e mobile Claiton Gimenis. O site foi criado com HTML, CSS e JavaScript.
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
+## Funcionalidades
 
-<br>
+O site possui quatro páginas:
+- Alternância entre modo claro e escuro;
+- Navegação entre diferentes páginas do site;
+- Links para redes sociais do desenvolvedor.
 
-<p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
-</p>
+- Página inicial
+- Sobre mim
+- Habilidades
+- Meu portfólio
 
-https://kkgi2021.github.io/devlike/
+Através da barra de navegação é possível acessar todas as páginas. O usuário também pode alterar o tema do site de claro para escuro ao clicar no botão de mudança de tema.
 
-## 🚀 Tecnologias
+O rodapé do site contém informações sobre o autor e os ícones que levam às redes sociais.
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## Como usar
+Clone o repositório:
+bash
+Copy code
+git clone https://github.com/kkgi2021/devlinks.git
+Abra o arquivo index.html no seu navegador.
 
-- HTML e CSS
+## Tecnologias utilizadas
+
+- HTML
+- CSS
 - JavaScript
-- Git e Github
-- Figma
 
-## 💻 Projeto
+## Autor
+Este site foi desenvolvido por [Claiton Gimenis](https://github.com/kkgi2021). Os ícones foram retirados do site [Ionicons](https://ionicons.com/).
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+## Licença
 
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
-
-- [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT.
-
----
-
-Feito com ♥ Por mim by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
-=======
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
-
+Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
